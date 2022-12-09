@@ -121,7 +121,7 @@ transition: transform 800ms;
 .texto_seccion_inicio{
     text-align: center;
     background-color: #981b15;
-    height: 100vh;
+    height: 100%;
 }
 .texto_seccion_inicio img{
     width: 200px;
