@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik 80s Fade', cursive;
+}
+nav{
+    background-color: #d0d6f3;
+background-image: linear-gradient(119deg, rgb(164, 204, 22) 0%, #808005 46%, #978e08 100%);
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.nav_primer_ul{
+display: flex;
+justify-content: space-between;
+}
+
+.nav_primer_ul li {
+    margin: 10px;
+}
+
+.nav_primer_ul li ul{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 400ms;
+    transition-delay: 300ms;
+    z-index: 3;
+}
+
+.nav_primer_ul li:hover > ul {
+    opacity: 1;
+    transition: opacity 400ms;
+    transition-delay: 300ms;
+}
+
+.main-seccion-principal {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    /* lo colocamos como relative al padre para que los hijos 
+    absolute no se muevan a otros contenedores exteriores*/
+    perspective: 10px;
+    /*La perspectiva tiene que ir en el padre
+    y nos indicara en este caso en pixeles la profundidad*/
+    overflow-x: hidden;
+    /* con hidden no habra scroll pero se le puede poner*/
+    overflow-y: scroll;
+    /*y con exitira un scroll*/
+}
+.imagen{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+}
+
+.seccion-cielo{
+    width: 100%;
+    height: auto;
+    transform: translateZ(0px) scale(1);
+    /*el que cre el efecto es el traslateZ
+    en este caso como es el fondo tendra 0 osea estara a la altura
+    de la profundidad indicada en perspectiva*/
+    transform-origin: 0 50%;
+    /*En este origin indicamos que inicie al 50% (la mitas)
+    en x*/
+}
+.seccion-campo{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    transform: translateZ(3px) scale(1);
+    /*el traslateZ esta 3 px estara menos profundo de lo 10 asignado
+    en perpectiva*/
+    top: 300px;
+    transform-origin: 0 50%;
+   
+}
+.seccion-campo h1{
+    color: blueviolet;
+}
+.seccion-nubes{
+    width: 100%;
+    height: auto;
+    transform: translateZ(6px) scale(0.574);
+    /*Como podemos ver en las nuves con el texto que este en este
+    div podemos ver que esta es la imagen que esta menos profunda
+    y por lo tanto esla que esta encima de todas*/
+    transform-origin: 0 50%;
+
+}
+.seccion-caida{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 80px;
+transition: transform 800ms;
+}
+.seccion-caida img{
+    width: 80px;
+}
+.seccion-caida:hover{
+    transform: rotate(-45deg) translateY(15px);
+}
+
+
+.main_seccion_titulo_inicio{
+    display: block;
+    font-family: 'Rubik Vinyl', cursive;
+    color: black;
+}
+
+.texto_seccion_inicio{
+    text-align: center;
+    background-color: #978e08;
+    height: 100%;
+}
+.texto_seccion_inicio img{
+    width: 200px;
+}
+.inicio_pie{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+.inicio_pie img{
+    width: 35px;
+}
+
+
+/*Hecho por Vladimir Farrera Vera*/
