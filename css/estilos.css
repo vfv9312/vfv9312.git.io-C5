@@ -126,6 +126,19 @@ transition: transform 800ms;
 .texto_seccion_inicio img{
     width: 200px;
 }
+.texto-cumpleaños{
+    text-align: center;
+    background-color: beige;
+    height: 100%;
+}
+.texto-cumpleaños img{
+    width: 400px;
+}
+.texto-avisos{
+    text-align: center;
+    background-color: red;
+    height: 100%;
+}
 .inicio_pie{
     display: flex;
     position: absolute;
@@ -135,6 +148,12 @@ transition: transform 800ms;
 }
 .inicio_pie img{
     width: 35px;
+}
+.c-insgth{
+    display: flex;
+    
+    justify-content:end;
+    width: 400px;
 }
 
 .styled-table {
