@@ -4,9 +4,11 @@
     margin: 0;
     font-family: 'Anton', sans-serif;
 }
-nav{
-    background-color: #d0d6f3;
-background-image: linear-gradient(119deg, #393d42 0%, #072B4D 46%, #c6c2bd 100%);
+:root {
+    --blanco :#e2e1e9;
+    --negro-normal:#201E1C;
+    --dorado: #b27633;
+    --rojo: #772e39;
 }
 a{
     text-decoration: none;
@@ -18,13 +20,24 @@ ul{
 .nav_primer_ul{
 display: flex;
 justify-content: space-between;
+background-image: linear-gradient(119deg, var(--rojo) 17%, var(--blanco) 16%, var(--dorado)  100%);
+}
+.nav_primer_ul-c5{
+    display: flex;
+justify-content: space-between;
+    background-image: linear-gradient(119deg, var(--rojo) 35%, var(--blanco)  16%, var(--dorado)  100%);
+}
+.nav_primer_ul-certificacion{
+    display: flex;
+justify-content: space-between;
+    background-image: linear-gradient(119deg, var(--rojo) 35%, var(--blanco) 16%, var(--dorado)  100%);
 }
 
-.nav_primer_ul li {
+nav li {
     margin: 10px;
 }
 
-.nav_primer_ul li ul{
+nav li ul{
     display: block;
     opacity: 0;
     position: absolute;
@@ -33,7 +46,7 @@ justify-content: space-between;
     z-index: 3;
 }
 
-.nav_primer_ul li:hover > ul {
+nav li:hover > ul {
     opacity: 1;
     transition: opacity 400ms;
     transition-delay: 300ms;
@@ -111,6 +124,32 @@ transition: transform 800ms;
     transform: rotate(-45deg) translateY(15px);
 }
 
+.texto_seccion_inicio .header--boton{
+    position: absolute;
+    left: calc(50% - 118px); /* calcula a la mitad menos 118 px*/
+    top: 130px;
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 233px;
+    height: 48px;
+    background-color: var(--dorado);
+    /*Sombra*/
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--negro-normal);
+}
+.header--boton span {
+    display: inline-block; /*convertimos en inline-block para porder darle dimensiones a la etiqueta a*/
+    width: 13px;
+    height: 8px;
+    margin-left: 1px;
+    background-image: url("./layers/Vector-3.svg");
+}
 
 .main_seccion_titulo_inicio{
     display: block;
@@ -120,30 +159,30 @@ transition: transform 800ms;
 
 .texto_seccion_inicio{
     text-align: center;
-    background-color: beige;
-    height: 100%;
+    background-color:  #772e39 ;
+    height: 75vh;
 }
 .texto_seccion_inicio img{
-    width: 200px;
+    width: 100%;
 }
 .texto-cumpleaños{
     text-align: center;
-    background-color: beige;
+    background-color: var(--blanco) ;
     height: 100%;
 }
 .texto-cumpleaños img{
-    width: 400px;
+    width: 100%;
 }
 .texto-avisos{
     text-align: center;
-    background-color: red;
+    background-color: var(--dorado) ;
     height: 100%;
 }
 .inicio_pie{
     display: flex;
     position: absolute;
     bottom: 100;
-    background-color: beige;
+    background-color: var(--dorado) ;
     width: 100%;
 }
 .inicio_pie img{
@@ -164,15 +203,15 @@ transition: transform 800ms;
          min-width: 450px;
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); }
 
-          .styled-table thead tr { background-color: #980081;
-             color: #ffffff;
+          .styled-table thead tr { background-color: var(--rojo);
+             color: var(--blanco) ;
               text-align: middle; }
 
               .styled-table th, .styled-table td { padding: 12px 15px; }
 
-              .styled-table tbody tr { border-bottom: 1px solid #dddddd;
+              .styled-table tbody tr { border-bottom: 1px solid var(--blanco) ;
              } 
-             .styled-table tbody tr:nth-of-type(even) { background-color: #f3f3f3;
+             .styled-table tbody tr:nth-of-type(even) { background-color: var(--blanco) ;
              } 
              .styled-table tbody tr:last-of-type { border-bottom: 2px solid #009879; }
 
