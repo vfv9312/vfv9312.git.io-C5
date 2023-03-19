@@ -9,6 +9,7 @@
     --negro-normal:#201E1C;
     --dorado: #b27633;
     --rojo: #772e39;
+    --violeta: blueviolet;
 }
 a{
     text-decoration: none;
@@ -97,7 +98,7 @@ nav li:hover > ul {
    
 }
 .seccion-campo h1{
-    color: blueviolet;
+    color: var(--violeta);
 }
 .seccion-nubes{
     width: 100%;
@@ -159,7 +160,7 @@ transition: transform 800ms;
 
 .texto_seccion_inicio{
     text-align: center;
-    background-color:  #772e39 ;
+    background-color: var(--rojo);
     height: 75vh;
 }
 .texto_seccion_inicio img{
@@ -167,7 +168,7 @@ transition: transform 800ms;
 }
 .texto-cumpleaños{
     text-align: center;
-    background-color: var(--blanco) ;
+    background: linear-gradient(207.8deg, var(--rojo) 16.69%, var(--dorado) 100%);
     height: 100%;
 }
 .texto-cumpleaños img{
@@ -214,6 +215,26 @@ transition: transform 800ms;
              .styled-table tbody tr:nth-of-type(even) { background-color: var(--blanco) ;
              } 
              .styled-table tbody tr:last-of-type { border-bottom: 2px solid #009879; }
+
+             .styled-table-incio {
+                border-collapse: collapse;
+                 margin: 25px 0;
+                  font-size: 1em;
+                   font-family: sans-serif;
+                    min-width: 100%;
+                     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); }
+           
+                     .styled-table-incio thead tr { background-color: var(--rojo);
+                        color: var(--blanco) ;
+                         text-align: middle; }
+           
+                         .styled-table-incio th, .styled-table-incio td { padding: 12px 15px; }
+           
+                         .styled-table-incio tbody tr { border-bottom: 1px solid var(--blanco) ;
+                        } 
+                        .styled-table-incio tbody tr:nth-of-type(even) { background-color: var(--blanco) ;
+                        } 
+                        .styled-table-incio tbody tr:last-of-type { border-bottom: 2px solid #009879; }
 
 
 /*Hecho por Vladimir Farrera Vera*/
