@@ -216,6 +216,8 @@ transition: transform 800ms;
              } 
              .styled-table tbody tr:last-of-type { border-bottom: 2px solid #009879; }
 
+
+
              .styled-table-incio {
                 border-collapse: collapse;
                  margin: 25px 0;
@@ -234,7 +236,7 @@ transition: transform 800ms;
                         } 
                         .styled-table-incio tbody tr:nth-of-type(even) { background-color: var(--blanco) ;
                         } 
-                        .styled-table-incio tbody tr:last-of-type { border-bottom: 2px solid #009879; }
+                        .styled-table-incio tbody tr:last-of-type { border-bottom: 2px solid var(--negro-normal); }
 
 
 /*Hecho por Vladimir Farrera Vera*/
