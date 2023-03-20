@@ -28,10 +28,22 @@ background-image: linear-gradient(119deg, var(--rojo) 17%, var(--blanco) 16%, va
 justify-content: space-between;
     background-image: linear-gradient(119deg, var(--rojo) 35%, var(--blanco)  16%, var(--dorado)  100%);
 }
-.nav_primer_ul-certificacion{
+.nav_primer_ul-calea{
     display: flex;
 justify-content: space-between;
-    background-image: linear-gradient(119deg, var(--rojo) 35%, var(--blanco) 16%, var(--dorado)  100%);
+    background-image: linear-gradient(119deg, var(--rojo) 55%, var(--blanco) 16%, var(--dorado)  100%);
+}
+
+.nav_primer_ul-cargo{
+    display: flex;
+justify-content: space-between;
+    background-image: linear-gradient(119deg, var(--rojo) 85%, var(--blanco) 16%, var(--dorado)  100%);
+}
+
+.nav_primer_ul-c-insgth{
+    display: flex;
+justify-content: space-between;
+    background: var(--rojo);
 }
 
 nav li {
@@ -190,10 +202,16 @@ transition: transform 800ms;
     width: 35px;
 }
 .c-insgth{
-    display: flex;
-    
-    justify-content:end;
     width: 400px;
+    height: 400px;
+}
+
+.c-insgth-contenedor{
+    height: 100vh;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .styled-table {
