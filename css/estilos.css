@@ -37,7 +37,7 @@ justify-content: space-between;
 .nav_primer_ul-cargo{
     display: flex;
 justify-content: space-between;
-    background-image: linear-gradient(119deg, var(--rojo) 85%, var(--blanco) 16%, var(--dorado)  100%);
+    background-image: linear-gradient(119deg, var(--rojo) 77%, var(--blanco) 16%, var(--dorado)  100%);
 }
 
 .nav_primer_ul-c-insgth{
@@ -166,7 +166,6 @@ transition: transform 800ms;
 
 .main_seccion_titulo_inicio{
     display: block;
-    
     color: black;
 }
 
@@ -201,17 +200,19 @@ transition: transform 800ms;
 .inicio_pie img{
     width: 35px;
 }
+.main_seccion_titulo_c5 h1{
+text-align: center;
+}
+
 .c-insgth{
-    width: 400px;
-    height: 400px;
+    width: 100%;
 }
 
 .c-insgth-contenedor{
-    height: 100vh;
-    width: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-content: center;
 }
 
 .styled-table {
@@ -255,6 +256,10 @@ transition: transform 800ms;
                         .styled-table-incio tbody tr:nth-of-type(even) { background-color: var(--blanco) ;
                         } 
                         .styled-table-incio tbody tr:last-of-type { border-bottom: 2px solid var(--negro-normal); }
+
+                        .texto-avisos img{
+                            width: 100%;
+                        }
 
 
 /*Hecho por Vladimir Farrera Vera*/
