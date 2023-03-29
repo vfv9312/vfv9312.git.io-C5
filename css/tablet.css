@@ -1,3 +1,45 @@
 .texto_seccion_inicio{
     height: 95%;
 }
+.menu11{
+    display: none;
+}
+.logo11{
+    display: none;
+}
+
+nav {
+    display: inline;
+}
+
+.nav_primer ul{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(119deg, var(--rojo) 17%, var(--blanco) 16%, var(--dorado)  100%);
+    }
+    .nav_primer-c5 ul{
+        display: flex;
+    justify-content: space-between;
+        background-image: linear-gradient(119deg, var(--rojo) 35%, var(--blanco)  16%, var(--dorado)  100%);
+    }
+    .nav_primer-calea ul{
+        display: flex;
+    justify-content: space-between;
+        background-image: linear-gradient(119deg, var(--rojo) 55%, var(--blanco) 16%, var(--dorado)  100%);
+    }
+    
+    .nav_primer-cargo ul{
+        display: flex;
+    justify-content: space-between;
+        background-image: linear-gradient(119deg, var(--rojo) 77%, var(--blanco) 16%, var(--dorado)  100%);
+    }
+    
+    .nav_primer-c-insgth ul{
+        display: flex;
+    justify-content: space-between;
+        background: var(--rojo);
+    }
+
+    .mobile-menu{
+        display: none;
+    }

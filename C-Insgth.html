@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="/css/tablet.css" media="(min-width: 640px)"> 
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
@@ -13,7 +14,10 @@
 <body>
    
     <nav>
-        <ul class="nav_primer_ul-c-insgth">
+        <img src="./layers/icon_menu.svg" alt="" class="menu11">
+        <div class="nav_primer nav_primer-c-insgth">
+            <img src="./layers/c5_chiapas.png" alt="logo" class="logo11">
+        <ul>
             <li> <a href="./index.html">INICIO</a></li>
             <li><a href="./c5.html"> C5 </a></li>
             <li><a href="./calea.html">CALEA</a>
@@ -29,6 +33,29 @@
 
             <li><a href="./C-Insgth.html"> C-Insgth</a></li>
         </ul>
+    </div>
+    <div class="mobile-menu inactivo">
+        <ul>
+            <li>
+                <a href="/index.html">INICIO</a>
+            </li>
+            <li>
+                <a href="./c5.html"> C5 </a>
+            </li>
+            <li>
+                <a href="./calea.html">CALEA</a>
+            </li>
+            <li>
+                <a href="./cargo.html">CARGO</a>
+            </li>
+            <li>
+                <a href="./C-Insgth.html"> C-Insgth</a>
+            </li>
+        </ul>
+        <ul>
+            <li><a class="sign-out" href="#">Cerrar secioon</a></li>
+        </ul>
+    </div>
     </nav>
 
     <article class="c-insgth-contenedor">
@@ -61,6 +88,6 @@
  
     </article>
 
-
+    <script src="./main.js"></script>
 </body>
 </html>

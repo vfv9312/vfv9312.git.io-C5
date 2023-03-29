@@ -4,13 +4,6 @@
     margin: 0;
     font-family: 'Anton', sans-serif;
 }
-:root {
-    --blanco :#e2e1e9;
-    --negro-normal:#201E1C;
-    --dorado: #b27633;
-    --rojo: #772e39;
-    --violeta: blueviolet;
-}
 a{
     text-decoration: none;
     color: black;
@@ -18,39 +11,42 @@ a{
 ul{
     list-style: none;
 }
-.nav_primer_ul{
-display: flex;
-justify-content: space-between;
-background-image: linear-gradient(119deg, var(--rojo) 17%, var(--blanco) 16%, var(--dorado)  100%);
-}
-.nav_primer_ul-c5{
-    display: flex;
-justify-content: space-between;
-    background-image: linear-gradient(119deg, var(--rojo) 35%, var(--blanco)  16%, var(--dorado)  100%);
-}
-.nav_primer_ul-calea{
-    display: flex;
-justify-content: space-between;
-    background-image: linear-gradient(119deg, var(--rojo) 55%, var(--blanco) 16%, var(--dorado)  100%);
+:root {
+    --blanco :#e2e1e9;
+    --negro-normal:#201E1C;
+    --dorado: #b27633;
+    --rojo: #772e39;
+    --violeta: blueviolet;
+    --hospital-green:#ACD9B2;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
 }
 
-.nav_primer_ul-cargo{
+
+nav {
     display: flex;
-justify-content: space-between;
-    background-image: linear-gradient(119deg, var(--rojo) 77%, var(--blanco) 16%, var(--dorado)  100%);
+    justify-content:space-between;
+    background: linear-gradient(207.8deg, var(--dorado) 16.69%, var(--rojo) 100%, var(--blanco) 17%);
 }
 
-.nav_primer_ul-c-insgth{
-    display: flex;
-justify-content: space-between;
-    background: var(--rojo);
+.logo11{
+    width: 40px;
 }
 
-nav li {
+.menu11{
+    cursor: pointer;
+    display: block;
+}
+.nav_primer ul{
+    display: none;
+}
+
+.nav_primer li {
     margin: 10px;
 }
 
-nav li ul{
+.nav_primer li ul{
     display: block;
     opacity: 0;
     position: absolute;
@@ -59,10 +55,41 @@ nav li ul{
     z-index: 3;
 }
 
-nav li:hover > ul {
+.nav_primer li:hover > ul {
     opacity: 1;
     transition: opacity 400ms;
     transition-delay: 300ms;
+}
+
+.inactivo {
+    display: none;
+}
+
+.mobile-menu{
+    position: absolute;
+    top: 38px;
+    padding: 10px;
+    z-index: 3;
+}
+
+.mobile-menu a{
+    font-weight: bold;
+}
+
+.mobile-menu ul{
+    padding: 0;
+    margin: 10px 0 0;
+}
+.mobile-menu ul:nth-child(1){
+    border-bottom: 1px solid var(--blanco);
+}
+
+.sign-out{
+    color: var(--hospital-green) !important;
+    font-size: var(--sm);
+}
+.mobile-menu ul:last-child{
+    margin-top: 10px;
 }
 
 .main-seccion-principal {
@@ -260,6 +287,10 @@ text-align: center;
                         .texto-avisos img{
                             width: 100%;
                         }
+
+
+
+
 
 
 /*Hecho por Vladimir Farrera Vera*/
