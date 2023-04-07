@@ -43,3 +43,7 @@ nav {
     .mobile-menu{
         display: none;
     }
+
+    .logo {
+        display: none;
+      }
