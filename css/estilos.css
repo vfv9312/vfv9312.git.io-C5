@@ -192,12 +192,13 @@ transition: transform 800ms;
     text-decoration: none;
     color: var(--negro-normal);
 }
-.header--boton span {
-    display: inline-block; /*convertimos en inline-block para porder darle dimensiones a la etiqueta a*/
+.header--boton img {
     width: 13px;
     height: 8px;
     margin-left: 1px;
-    background-image: url("./layers/Vector-3.svg");
+    position: absolute;
+    left: 45px;
+    top: 30px;
 }
 
 .main_seccion_titulo_inicio{
