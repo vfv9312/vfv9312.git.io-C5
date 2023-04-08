@@ -13,6 +13,10 @@ function entrar() {
         window.location.href = "inicio.html";
         sessionStorage.setItem('Usuario', usuario);
     }
+    else if (usuario == "Admin" && contraseña == "editar") {
+        window.location.href = "editor.html";
+       // sessionStorage.setItem('Admin', editor);
+    }
     else {
         alert('La contraseña o usuario es incorrecta');
     }
