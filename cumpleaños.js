@@ -5,68 +5,71 @@ function fecha(Listacompleta) {
     const fechaActual = new Date(); // crea un objeto Date con la fecha y hora actuales
 const mesActual = fechaActual.getMonth() + 1; // devuelve el mes actual (0 = enero, 1 = febrero, etc.) y le suma 1 para que el mes esté en el rango de 1 a 12
 const diaActual = fechaActual.getDate(); // devuelve el día del mes actual (1-31)
+let meses;
 //console.log(Listacompleta);
 //console.log(`El mes actual es ${mesActual} y el día actual es ${diaActual}`);
 
 switch (mesActual) {
         case 1:
             const Listadeenero = Listacompleta.filter(indice => indice.mesnacimiento == 1);
-            console.log(Listadeenero);
+            meses = 'Enero';
+            rendercumpleños(Listadeenero, meses);
         break;
         case 2:
             const Listadefebrero = Listacompleta.filter(indice => indice.mesnacimiento == 2);
-            console.log(Listadefebrero);
+            meses = 'Febrero';
+            rendercumpleños(Listadefebrero, meses);
         break;
         case 3:
             const Listademarzo = Listacompleta.filter(indice => indice.mesnacimiento == 3);
-            console.log(Listademarzo);
-            rendercumpleños(Listademarzo);
+            meses = 'Marzo';
+            rendercumpleños(Listademarzo, meses);
         break;
         case 4:
             const Listadeabril = Listacompleta.filter(indice => indice.mesnacimiento == 4);
-            console.log(Listadeabril);
-            rendercumpleños(Listadeabril);
+            meses = 'Abril'
+            rendercumpleños(Listadeabril, meses);
         break;
         case 5:
             const Listademayo = Listacompleta.filter(indice => indice.mesnacimiento == 5);
-            console.log(Listademayo);
-            rendercumpleños(Listademayo);
+            meses = 'Mayo';
+            rendercumpleños(Listademayo, meses);
         break;
         case 6:
             const Listadejunio = Listacompleta.filter(indice => indice.mesnacimiento == 6);
-            console.log(Listadejunio);
-            rendercumpleños(Listadejunio);
+            meses = 'Junio';
+            rendercumpleños(Listadejunio), meses;
         break;
         case 7:
             const Listadejulio = Listacompleta.filter(indice => indice.mesnacimiento == 7);
-            console.log(Listadejulio);
-            rendercumpleños(Listadejulio);
+            meses = 'Julio';
+            rendercumpleños(Listadejulio, meses);
         break;
         case 8:
             const Listadeagosto = Listacompleta.filter(indice => indice.mesnacimiento == 8);
-            console.log(Listadeagosto);
-            rendercumpleños(Listadeagosto);
+            meses = 'Agosto';
+            rendercumpleños(Listadeagosto, meses);
         break;
         case 9:
             const Listadeseptiembre = Listacompleta.filter(indice => indice.mesnacimiento == 9);
-            console.log(Listadeseptiembre);
-            rendercumpleños(Listadeseptiembre);
+            meses = 'Septiembre';
+            rendercumpleños(Listadeseptiembre, meses);
         break;
         case 10:
             const Listadeoctubre = Listacompleta.filter(indice => indice.mesnacimiento == 10);
-            console.log(Listadeoctubre);
-            rendercumpleños(Listadeoctubre);
+            meses = 'Octubre';
+            rendercumpleños(Listadeoctubre, meses);
         break;
         case 11:
             const Listadenoviembre = Listacompleta.filter(indice => indice.mesnacimiento == 11);
-            console.log(Listadenoviembre);
-            rendercumpleños(Listadenoviembre);
+            meses = 'Noviembre';
+            rendercumpleños(Listadenoviembre, meses);
         break;
 
     default:
         const Listadediciembre = Listacompleta.filter(indice => indice.mesnacimiento == 12);
-        console.log(Listadediciembre);
-        rendercumpleños(Listadediciembre);
+        meses = 'Diciembre';
+        rendercumpleños(Listadediciembre, meses);
         break;
 }
 
@@ -242,11 +245,35 @@ ListaDeEmpleados.push({
     dianacimiento: 24,
     imagen:'',
 });
+ListaDeEmpleados.push({
+    nombre: 'Justino Novelo Buenfil',
+    mesnacimiento: 6,
+    dianacimiento: 11,
+    imagen:'',
+});
+ListaDeEmpleados.push({
+    nombre: 'Antonio C. Nanguyasmu Alegria',
+    mesnacimiento: 6,
+    dianacimiento: 13,
+    imagen:'',
+});
+ListaDeEmpleados.push({
+    nombre: 'Luis Antonio Arroyo Estrada',
+    mesnacimiento: 6,
+    dianacimiento: 25,
+    imagen:'',
+});
+ListaDeEmpleados.push({
+    nombre: 'Valeria Camacho Moreno',
+    mesnacimiento: 6,
+    dianacimiento: 26,
+    imagen:'',
+});
 //console.log(ListaDeEmpleados[9].dianacimiento);
 return ListaDeEmpleados;
 }
 
-function rendercumpleños(arr) {
+function rendercumpleños(arr, meses) {
     arreglo = arr;
     console.log(arreglo)
     const tabla = document.createElement('table'); // creamos una nueva tabla
@@ -257,7 +284,7 @@ const fila1 = tabla.insertRow();
 const celda1 = fila1.insertCell();
 const celda2 = fila1.insertCell();
 // agregamos texto a las celdas
-celda1.innerHTML = 'Cumpleañeros de mes 🥹🥳🎉';
+celda1.innerHTML = 'Cumpleañeros de '+ meses + ' 🥹🥳🎉';
 celda2.innerHTML = 'Dia';
 
 for (Listadelmes of arreglo) { // si usara  for (Listadelmes in arreglo) esto mostraria el indice del arreglo en caso de of muestra el elemento que del arreglo

@@ -1,15 +1,24 @@
-function extraerDatos() {
-    const usuario = document.getElementById('usuario').value;
-    const contraseña = document.getElementById('password').value;
-  
-    console.log(`Usuario: ${usuario}, Contraseña: ${contraseña}`);
-    // Puedes hacer lo que quieras con los valores de usuario y contraseña, como enviarlos a un servidor para verificar la autenticación del usuario.
-  }
 
-  if (validarCredenciales(usuario, contraseña)) {
-    const sessionId = generarIdSesion();
-    sessionStorage.setItem('sessionId', sessionId);
-    window.location.href = 'pagina-privada.html';
-  } else {
-    alert('Credenciales inválidas. Intente de nuevo.');
-  }
+const botonentrar = document.querySelector('#boton_entrar');
+const botonolvido = document.querySelector('#Olvido');
+
+botonentrar.addEventListener('click', entrar);
+
+
+function entrar() {
+
+    const usuario = document.getElementById('usuario').value;
+     const contraseña = document.getElementById('password').value;
+    if (usuario == "Operador" && contraseña == "despacho") {
+        window.location.href = "inicio.html";
+        sessionStorage.setItem('Usuario', usuario);
+    }
+    else {
+        alert('La contraseña o usuario es incorrecta');
+    }
+}
+botonolvido.addEventListener('click', mensaje);
+function mensaje() {
+    alert(' comunicarse via correo electronico enlace enlacecalidad911tgz@gmail.com')
+}
+
