@@ -284,8 +284,8 @@ const fila1 = tabla.insertRow();
 const celda1 = fila1.insertCell();
 const celda2 = fila1.insertCell();
 // agregamos texto a las celdas
-celda1.innerHTML = 'Cumpleañeros de '+ meses + ' 🥹🥳🎉';
-celda2.innerHTML = 'Dia';
+celda1.innerHTML = '<h1>Cumpleañeros de '+ meses + ' 🥹🥳🎉</h1>';
+celda2.innerHTML = '<h1>Dia</h1>';
 
 for (Listadelmes of arreglo) { // si usara  for (Listadelmes in arreglo) esto mostraria el indice del arreglo en caso de of muestra el elemento que del arreglo
        
@@ -295,8 +295,8 @@ const fila2 = tabla.insertRow();
 const celda3 = fila2.insertCell();
 const celda4 = fila2.insertCell();
 // agregamos texto a las celdas
-celda3.innerHTML = Listadelmes.nombre;
-celda4.innerHTML = Listadelmes.dianacimiento;
+celda3.innerHTML = '<p>'+ Listadelmes.nombre +'</p>';
+celda4.innerHTML = '<p>'+ Listadelmes.dianacimiento +'</p>';
 }
 // agregamos la tabla al contenedor
 TabladeCumpleaños.appendChild(tabla);
