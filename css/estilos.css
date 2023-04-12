@@ -22,7 +22,7 @@ ul{
     --white: #FFFFFF;
     --black: #000000;
     --very-light-pink: #C7C7C7;
-    --text-input-field: #F7F7F7;
+    --dorado-claro:#b09c5c;
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
@@ -130,6 +130,12 @@ nav {
     margin: 0 auto;
 
 }
+.jefa_lopidio{
+    z-index: 1;
+}
+.jefa_lopidio img{
+        height: 150px;
+}
 
 .seccion-cielo{
     width: 100%;
@@ -173,9 +179,12 @@ align-items: center;
 height: 100%;
 width: 80px;
 transition: transform 800ms;
+z-index: 2;
+
 }
 .seccion-caida img{
-    width: 80px;
+    border: solid 2px var(--black);
+    width: 160px;
 }
 .seccion-caida:hover{
     transform: rotate(-45deg) translateY(15px);
@@ -217,7 +226,7 @@ transition: transform 800ms;
 .texto_seccion_inicio{
     text-align: center;
     background-color: var(--rojo);
-    height: 55vh;
+    height: vh;
 }
 .texto_seccion_inicio img{
     width: 100%;
@@ -258,6 +267,7 @@ text-align: center;
     width: 100%;
     display: grid;
     place-content: center;
+    background-color: var(--rojo);
 }
 
 
@@ -277,12 +287,12 @@ text-align: center;
            
                          .styled-table-incio tbody tr { border-bottom: 1px solid var(--blanco) ;
                         } 
-                        .styled-table-incio tbody tr:nth-of-type(even) { background-color: var(--dorado) ;
+                        .styled-table-incio tbody tr:nth-of-type(even) { background-color: var(--dorado-claro) ;
                         } 
                         .styled-table-incio tbody tr:last-of-type { border-bottom: 2px solid var(--black); }
 
                         .texto-avisos img{
-                            width: 100%;
+                            width: 30%;
                         }
 
 
@@ -360,9 +370,25 @@ text-align: center;
                             display: block;
                           }
 
+                          .imagen-C5{
+                            background-color: var(--rojo);
+                            text-align: justify;
+                            width: 100%;
+                          }
+
                           .imagen-C5 img{
                             width: 100%;
-
+                          }
+                          .texto_calea{
+                            background-color: var(--rojo);
+                            text-align: justify;
+                          }
+                          .texto_calea h1{
+                            text-align: center;
+                          }
+                          .texto_cargo{
+                            background-color: var(--rojo);
+                            height: 70vh;
                           }
 
 
