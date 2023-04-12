@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
    color: var(--very-light-pink);
-   font-family: 'Quicksand', sans-serif;
+   font-family: 'Jost', sans-serif;
     font-size: var(--sm);
 }
 a{
@@ -28,7 +28,9 @@ ul{
     --lg: 18px;
 }
 
-
+h1 {
+    font-size: var(--lg);
+}
 nav {
     color: var(--negro-normal);
     display: flex;
@@ -209,6 +211,7 @@ transition: transform 800ms;
 
 .main_seccion_titulo_inicio{
     display: block;
+    
 }
 
 .texto_seccion_inicio{
