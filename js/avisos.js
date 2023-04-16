@@ -27,8 +27,8 @@ import {
         const task = doc.data();
   
         ContenedordeAvisos.innerHTML+=  `<div class="card card-body mt-2 border-primary">
-        <h3 class="h5">${task.title}</h3>
-        <p>${task.description}</p>
+        <h1 class="h5"">${task.title}</h1>
+        <p style="text-align: justify;"">${task.description}</p>
         <br>
         <div>`;
       });
