@@ -9,7 +9,7 @@ function entrar() {
 
     const usuario = document.getElementById('usuario').value;
      const contraseña = document.getElementById('password').value;
-    if (usuario == "Operador" && contraseña == "despacho") {
+    if (usuario == "CALLE911TGZ" && contraseña == "tuxtla") {
         window.location.href = "inicio.html";
         sessionStorage.setItem('Usuario', usuario);
     }
