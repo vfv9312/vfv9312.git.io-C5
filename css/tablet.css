@@ -16,29 +16,29 @@ nav {
 .nav_primer ul{
     display: flex;
     justify-content: space-between;
-    background-image: linear-gradient(119deg, var(--principal) 17%, var(--black) 16%, var(--secundario)  100%);
+    background-image: linear-gradient(119deg, var(--dorado-claro) 17%, var(--principal) 16%, var(--secundario)  100%);
     }
     .nav_primer-c5 ul{
         display: flex;
     justify-content: space-between;
-        background-image: linear-gradient(119deg, var(--principal) 35%, var(--black)  16%, var(--secundario)  100%);
+        background-image: linear-gradient(119deg, var(--dorado-claro) 35%, var(--principal)  16%, var(--secundario)  100%);
     }
     .nav_primer-calea ul{
         display: flex;
     justify-content: space-between;
-        background-image: linear-gradient(119deg, var(--principal) 55%, var(--black) 16%, var(--secundario)  100%);
+        background-image: linear-gradient(119deg, var(--dorado-claro) 55%, var(--principal) 16%, var(--secundario)  100%);
     }
     
     .nav_primer-cargo ul{
         display: flex;
     justify-content: space-between;
-        background-image: linear-gradient(119deg, var(--principal) 77%, var(--black) 16%, var(--secundario)  100%);
+        background-image: linear-gradient(119deg, var(--dorado-claro) 77%, var(--principal) 16%, var(--secundario)  100%);
     }
     
     .nav_primer-c-insgth ul{
         display: flex;
     justify-content: space-between;
-        background: var(--principal);
+        background: var(--dorado-claro);
     }
 
     .mobile-menu{

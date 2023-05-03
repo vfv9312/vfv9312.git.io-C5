@@ -34,7 +34,7 @@ nav {
     color: var(--negro-normal);
     display: flex;
     justify-content:space-between;
-    background: linear-gradient(207.8deg, var(--secundario) 16.69%, var(--principal) 100%, var(--secundario) 17%);
+    background: linear-gradient(207.8deg, var(--dorado-claro) 16.69%, var(--principal) 100%, var(--secundario) 17%);
 }
 
 .logo11{
@@ -292,6 +292,9 @@ text-align: center;
 
                         .texto-avisos img{
                             width: 30%;
+                        }
+                        .texto-avisos img:hover{
+                            transform: scale(2);
                         }
 
 
