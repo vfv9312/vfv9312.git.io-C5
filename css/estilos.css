@@ -312,7 +312,7 @@ text-align: center;
                             flex-direction: column;
                           }
                           .form a {
-                            color: var(--secundario);
+                            color: var(--black);
                             font-size: var(--sm);
                             text-align: center;
                             text-decoration: none;
@@ -336,10 +336,10 @@ text-align: center;
                             margin-bottom: 22px;
                           }
                           .primary-button {
-                            background-color: var(--secundario);
+                            background-color: var(--dorado-claro);
                             border-radius: 8px;
                             border: none;
-                            color: var(--white);
+                            color: var(--secundario);
                             width: 100%;
                             cursor: pointer;
                             font-size: var(--md);
@@ -347,7 +347,7 @@ text-align: center;
                             height: 50px;
                           }
                           .secondary-button {
-                            background-color: var(--white);
+                            background-color: var(--dorado-claro);
                             border-radius: 8px;
                             border: 1px solid var(--black);
                             color: var(--secundario);
