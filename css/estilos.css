@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-   color: var(--very-light-pink);
+   color: var(--black);
    font-family: 'Jost', sans-serif;
     font-size: var(--sm);
 }
@@ -13,14 +13,13 @@ ul{
     list-style: none;
 }
 :root {
-    --blanco :#e2e1e9;
-    --negro-normal:#201E1C;
-    --dorado: #b27633;
-    --rojo: #772e39;
+    --negro-normal:#040404;
+    --secundario:  #efefef;
+    --principal:  #eaeaea;
     --violeta: blueviolet;
     --hospital-green:#ACD9B2;
     --white: #FFFFFF;
-    --black: #000000;
+    --black: #0a0a0a;
     --very-light-pink: #C7C7C7;
     --dorado-claro:#b09c5c;
     --sm: 14px;
@@ -35,7 +34,7 @@ nav {
     color: var(--negro-normal);
     display: flex;
     justify-content:space-between;
-    background: linear-gradient(207.8deg, var(--dorado) 16.69%, var(--rojo) 100%, var(--blanco) 17%);
+    background: linear-gradient(207.8deg, var(--secundario) 16.69%, var(--principal) 100%, var(--secundario) 17%);
 }
 
 .logo11{
@@ -84,7 +83,7 @@ nav {
     z-index: 3;
     width: 100%;
     height: 700px;
-    background-color: var(--blanco);
+    background-color: var(--dorado-claro);
 }
 
 .mobile-menu a{
@@ -98,7 +97,7 @@ nav {
     margin: 10px 0 0;
 }
 .mobile-menu ul:nth-child(1){
-    border-bottom: 1px solid var(--blanco);
+    border-bottom: 1px solid var(--black);
 }
 
 .sign-out{
@@ -199,7 +198,7 @@ z-index: 2;
     padding: 15px;
     width: 233px;
     height: 48px;
-    background-color: var(--dorado);
+    background-color: var(--secundario);
     /*Sombra*/
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     border: none;
@@ -225,7 +224,7 @@ z-index: 2;
 
 .texto_seccion_inicio{
     text-align: center;
-    background-color: var(--rojo);
+    background-color: var(--principal);
     height: vh;
 }
 .texto_seccion_inicio img{
@@ -233,7 +232,7 @@ z-index: 2;
 }
 .texto-cumpleaños{
     text-align: center;
-    background: linear-gradient(207.8deg, var(--rojo) 16.69%, var(--dorado) 100%);
+    background: linear-gradient(207.8deg, var(--principal) 16.69%, var(--secundario) 100%);
     height: 100%;
 }
 .texto-cumpleaños img{
@@ -241,14 +240,14 @@ z-index: 2;
 }
 .texto-avisos{
     text-align: center;
-    background-color: var(--dorado) ;
+    background-color: var(--secundario) ;
     height: 100%;
 }
 .inicio_pie{
     display: flex;
     position: absolute;
     bottom: 100;
-    background-color: var(--dorado) ;
+    background-color: var(--secundario) ;
     width: 100%;
 }
 .inicio_pie img{
@@ -267,7 +266,7 @@ text-align: center;
     width: 100%;
     display: grid;
     place-content: center;
-    background-color: var(--rojo);
+    background-color: var(--principal);
 }
 
 
@@ -280,12 +279,12 @@ text-align: center;
                     min-width: 100%;
                      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); }
            
-                     .styled-table-incio thead tr { background-color: var(--rojo);
+                     .styled-table-incio thead tr { background-color: var(--principal);
                          text-align: middle; }
            
                          .styled-table-incio th, .styled-table-incio td { padding: 12px 15px; }
            
-                         .styled-table-incio tbody tr { border-bottom: 1px solid var(--blanco) ;
+                         .styled-table-incio tbody tr { border-bottom: 1px solid var(--black) ;
                         } 
                         .styled-table-incio tbody tr:nth-of-type(even) { background-color: var(--dorado-claro) ;
                         } 
@@ -313,7 +312,7 @@ text-align: center;
                             flex-direction: column;
                           }
                           .form a {
-                            color: var(--dorado);
+                            color: var(--secundario);
                             font-size: var(--sm);
                             text-align: center;
                             text-decoration: none;
@@ -337,7 +336,7 @@ text-align: center;
                             margin-bottom: 22px;
                           }
                           .primary-button {
-                            background-color: var(--dorado);
+                            background-color: var(--secundario);
                             border-radius: 8px;
                             border: none;
                             color: var(--white);
@@ -350,8 +349,8 @@ text-align: center;
                           .secondary-button {
                             background-color: var(--white);
                             border-radius: 8px;
-                            border: 1px solid var(--dorado);
-                            color: var(--dorado);
+                            border: 1px solid var(--black);
+                            color: var(--secundario);
                             width: 100%;
                             cursor: pointer;
                             font-size: var(--md);
@@ -371,7 +370,7 @@ text-align: center;
                           }
 
                           .imagen-C5{
-                            background-color: var(--rojo);
+                            background-color: var(--principal);
                             text-align: justify;
                             width: 100%;
                           }
@@ -380,14 +379,14 @@ text-align: center;
                             width: 100%;
                           }
                           .texto_calea{
-                            background-color: var(--rojo);
+                            background-color: var(--principal);
                             text-align: justify;
                           }
                           .texto_calea h1{
                             text-align: center;
                           }
                           .texto_cargo{
-                            background-color: var(--rojo);
+                            background-color: var(--principal);
                             height: 70vh;
                           }
 

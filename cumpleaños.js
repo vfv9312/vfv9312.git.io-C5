@@ -269,6 +269,84 @@ ListaDeEmpleados.push({
     dianacimiento: 26,
     imagen:'',
 });
+ListaDeEmpleados.push({
+    nombre: 'Cordova Jorge',
+    mesnacimiento: 7,
+    dianacimiento: 2,
+    imagen:'',
+});
+ListaDeEmpleados.push({
+    nombre: 'Francisco Hernandez Gomez',
+    mesnacimiento: 7,
+    dianacimiento: 3,
+    imagen:'',
+});
+ListaDeEmpleados.push({
+    nombre: 'Josue Enoch VillaFuerte Cañas',
+    mesnacimiento: 7,
+    dianacimiento: 4,
+    imagen:'',
+});
+ListaDeEmpleados.push({
+    nombre: 'Jorge Perez Mendez',
+    mesnacimiento: 7,
+    dianacimiento: 9,
+    imagen:'',
+});
+ListaDeEmpleados.push({
+    nombre: 'Tania Itzel Lopez Garcia',
+    mesnacimiento: 7,
+    dianacimiento: 10,
+    imagen:'',
+});
+ListaDeEmpleados.push({
+    nombre: 'Amalia Sanchez Serrano',
+    mesnacimiento: 7,
+    dianacimiento: 10,
+    imagen:'',
+});
+ListaDeEmpleados.push({
+    nombre: 'Anayeli Perez Hernandez',
+    mesnacimiento: 7,
+    dianacimiento: 27,
+    imagen:'',
+});
+ListaDeEmpleados.push({
+    nombre: 'Arnulfo Ocaña Cruz',
+    mesnacimiento: 7,
+    dianacimiento: 18,
+    imagen:'',
+});
+ListaDeEmpleados.push({
+    nombre: 'Jorge Alberto Velazquez Cruz',
+    mesnacimiento: 7,
+    dianacimiento: 23,
+    imagen:'',
+});
+ListaDeEmpleados.push({
+    nombre: 'Ada Elisa Fuentes Lopez',
+    mesnacimiento: 7,
+    dianacimiento: 24,
+    imagen:'',
+});
+ListaDeEmpleados.push({
+    nombre: 'Alondra Moreno Anzueto',
+    mesnacimiento: 7,
+    dianacimiento: 27,
+    imagen:'',
+});
+ListaDeEmpleados.push({
+    nombre: 'Elizabeth del Carmen Mendez Vilchis',
+    mesnacimiento: 7,
+    dianacimiento: 29,
+    imagen:'',
+});
+ListaDeEmpleados.push({
+    nombre: 'Jorge Alberto Culebro Vera',
+    mesnacimiento: 7,
+    dianacimiento: 30,
+    imagen:'',
+});
 //console.log(ListaDeEmpleados[9].dianacimiento);
 return ListaDeEmpleados;
 }

@@ -16,29 +16,29 @@ nav {
 .nav_primer ul{
     display: flex;
     justify-content: space-between;
-    background-image: linear-gradient(119deg, var(--rojo) 17%, var(--blanco) 16%, var(--dorado)  100%);
+    background-image: linear-gradient(119deg, var(--principal) 17%, var(--black) 16%, var(--secundario)  100%);
     }
     .nav_primer-c5 ul{
         display: flex;
     justify-content: space-between;
-        background-image: linear-gradient(119deg, var(--rojo) 35%, var(--blanco)  16%, var(--dorado)  100%);
+        background-image: linear-gradient(119deg, var(--principal) 35%, var(--black)  16%, var(--secundario)  100%);
     }
     .nav_primer-calea ul{
         display: flex;
     justify-content: space-between;
-        background-image: linear-gradient(119deg, var(--rojo) 55%, var(--blanco) 16%, var(--dorado)  100%);
+        background-image: linear-gradient(119deg, var(--principal) 55%, var(--black) 16%, var(--secundario)  100%);
     }
     
     .nav_primer-cargo ul{
         display: flex;
     justify-content: space-between;
-        background-image: linear-gradient(119deg, var(--rojo) 77%, var(--blanco) 16%, var(--dorado)  100%);
+        background-image: linear-gradient(119deg, var(--principal) 77%, var(--black) 16%, var(--secundario)  100%);
     }
     
     .nav_primer-c-insgth ul{
         display: flex;
     justify-content: space-between;
-        background: var(--rojo);
+        background: var(--principal);
     }
 
     .mobile-menu{
@@ -48,3 +48,11 @@ nav {
     .logo {
         display: none;
       }
+
+    .texto-avisos img{
+        width: 105px;
+    }
+
+    .jefa_lopidio img{
+        width: 250vh;
+    }
