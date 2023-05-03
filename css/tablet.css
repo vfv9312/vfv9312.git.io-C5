@@ -11,34 +11,40 @@
 
 nav {
     display: inline;
+
 }
 
 .nav_primer ul{
     display: flex;
     justify-content: space-between;
-    background-image: linear-gradient(119deg, var(--dorado-claro) 17%, var(--principal) 16%, var(--secundario)  100%);
+    background-image: linear-gradient(119deg, var(--black) 15%, var(--principal) 16%, var(--very-light-pink)  100%);
     }
     .nav_primer-c5 ul{
         display: flex;
     justify-content: space-between;
-        background-image: linear-gradient(119deg, var(--dorado-claro) 35%, var(--principal)  16%, var(--secundario)  100%);
+        background-image: linear-gradient(119deg, var(--black) 25%, var(--principal)  26%, var(--very-light-pink)  100%);
     }
     .nav_primer-calea ul{
         display: flex;
     justify-content: space-between;
-        background-image: linear-gradient(119deg, var(--dorado-claro) 55%, var(--principal) 16%, var(--secundario)  100%);
+        background-image: linear-gradient(119deg, var(--black) 45%, var(--principal) 46%, var(--very-light-pink)  100%);
     }
     
     .nav_primer-cargo ul{
         display: flex;
     justify-content: space-between;
-        background-image: linear-gradient(119deg, var(--dorado-claro) 77%, var(--principal) 16%, var(--secundario)  100%);
+        background-image: linear-gradient(119deg, var(--black) 60%, var(--principal) 63%, var(--very-light-pink)  100%);
     }
     
     .nav_primer-c-insgth ul{
         display: flex;
     justify-content: space-between;
-        background: var(--dorado-claro);
+    background-image: linear-gradient(119deg, var(--black) 77%, var(--principal) 79%, var(--very-light-pink)  100%);
+    }
+    .nav_primer-juego ul{
+        display: flex;
+    justify-content: space-between;
+        background: var(--black);
     }
 
     .mobile-menu{
@@ -55,4 +61,8 @@ nav {
 
     .jefa_lopidio img{
         width: 250vh;
+    }
+    .contenedor-juegos{
+        display: grid;
+        justify-items: center; /*sirve para centrar*/ 
     }

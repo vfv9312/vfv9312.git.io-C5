@@ -31,7 +31,6 @@ h1 {
     font-size: var(--lg);
 }
 nav {
-    color: var(--negro-normal);
     display: flex;
     justify-content:space-between;
     background: linear-gradient(207.8deg, var(--dorado-claro) 16.69%, var(--principal) 100%, var(--secundario) 17%);
@@ -69,7 +68,7 @@ nav {
     transition-delay: 300ms;
 }
 .nav_primer a{
-    color: var(--black);
+    color: var(--dorado-claro);
 }
 
 .inactivo {
@@ -83,7 +82,7 @@ nav {
     z-index: 3;
     width: 100%;
     height: 700px;
-    background-color: var(--dorado-claro);
+    background-color: var(--very-light-pink);
 }
 
 .mobile-menu a{
@@ -101,7 +100,7 @@ nav {
 }
 
 .sign-out{
-    color: var(--hospital-green) !important;
+    color: var(--dorado-claro) !important;
     font-size: var(--sm);
 }
 .mobile-menu ul:last-child{
