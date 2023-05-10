@@ -192,13 +192,13 @@ ListaDeEmpleados.push({
     imagen:'',
 });
 ListaDeEmpleados.push({
-    nombre: 'Cruz Zuñiga Nandayapa',
+    nombre: 'Cruz Zúñiga Nandayapa',
     mesnacimiento: 5,
     dianacimiento: 2,
     imagen:'',
 });
 ListaDeEmpleados.push({
-    nombre: 'Reiner Fabian Vazquez Zenteno',
+    nombre: 'Rainer Fabián Vázquez Zenteno',
     mesnacimiento: 5,
     dianacimiento: 2,
     imagen:'',
@@ -210,7 +210,7 @@ ListaDeEmpleados.push({
     imagen:'',
 });
 ListaDeEmpleados.push({
-    nombre: 'Irving Ivan Prieto Mendiola',
+    nombre: 'Irving Iván Prieto Mendiola',
     mesnacimiento: 5,
     dianacimiento: 10,
     imagen:'',
@@ -228,19 +228,19 @@ ListaDeEmpleados.push({
     imagen:'',
 });
 ListaDeEmpleados.push({
-    nombre: 'Iris del Carmen Lopez Garcia',
+    nombre: 'Iris Del Carmen López García',
     mesnacimiento: 5,
     dianacimiento: 19,
     imagen:'',
 });
 ListaDeEmpleados.push({
-    nombre: 'Ruben de Jesus Cruz Gutierrez',
+    nombre: 'Rubén De Jesús Cruz Gutiérrez',
     mesnacimiento: 5,
     dianacimiento: 24,
     imagen:'',
 });
 ListaDeEmpleados.push({
-    nombre: 'Claudia Carolina Gomez Lopez',
+    nombre: 'Claudia Carolina Gómez López',
     mesnacimiento: 5,
     dianacimiento: 24,
     imagen:'',
