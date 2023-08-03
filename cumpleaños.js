@@ -347,6 +347,54 @@ ListaDeEmpleados.push({
     dianacimiento: 30,
     imagen:'',
 });
+    ListaDeEmpleados.push({
+    nombre: 'Tania Itzel Lopez Garcia',
+    mesnacimiento: 8,
+    dianacimiento: 10,
+    imagen:'',
+});
+    ListaDeEmpleados.push({
+    nombre: 'Bertha Morayma Hernández Camacho',
+    mesnacimiento: 9,
+    dianacimiento: 10,
+    imagen:'',
+});
+        ListaDeEmpleados.push({
+    nombre: 'Jorge Alejandro Pérez Argueta',
+    mesnacimiento: 9,
+    dianacimiento: 10,
+    imagen:'',
+});
+    ListaDeEmpleados.push({
+    nombre: 'Miguel Ángel Tovar Damián',
+    mesnacimiento: 10,
+    dianacimiento: 15,
+    imagen:'',
+});
+        ListaDeEmpleados.push({
+    nombre: 'Alfredo Cervantes Pérez ',
+    mesnacimiento: 10,
+    dianacimiento: 25,
+    imagen:'',
+});
+    ListaDeEmpleados.push({
+    nombre: 'Cari Berenice Montero Macias',
+    mesnacimiento: 11,
+    dianacimiento: 10,
+    imagen:'',
+});
+    ListaDeEmpleados.push({
+    nombre: 'Daniela Martinez',
+    mesnacimiento: 12,
+    dianacimiento: 03,
+    imagen:'',
+});
+        ListaDeEmpleados.push({
+    nombre: 'Vladimir Farrera',
+    mesnacimiento: 12,
+    dianacimiento: 31,
+    imagen:'',
+});
 //console.log(ListaDeEmpleados[9].dianacimiento);
 return ListaDeEmpleados;
 }
